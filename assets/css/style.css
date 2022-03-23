@@ -1,12 +1,6 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-a {
-    color: green;
-}
-a:visited {
-    color: lightblue;
-}
 body {
     background-color: rgb(54, 53, 58);
     color: whitesmoke;
@@ -16,13 +10,17 @@ body {
 header {
     position: fixed;
     top: 0px;
-    background-color: burlywood;
     width: 100vw;
     margin-left: -8px;
+    background-color: burlywood;
+    text-align: center;
 }
-#navigation li {
+#nav-list li {
     display: inline;
-    margin: auto
+    padding: 0px 20px
+}
+#nav-list li a {
+    text-decoration: none;
 }
 h1 {
     color: rgb(187, 17, 17);
