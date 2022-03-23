@@ -1,0 +1,31 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a {
+    color: green;
+}
+a:visited {
+    color: lightblue;
+}
+body {
+    background-color: rgb(54, 53, 58);
+    color: whitesmoke;
+    height: 1000px;
+    padding-top: 75px;
+}
+header {
+    position: fixed;
+    top: 0px
+}
+header h1, header #navigation, header #navigation li {
+    display: inline;
+    margin: auto
+}
+h1 {
+    color: rgb(187, 17, 17);
+}
+img {
+    max-width: 90vw;
+    display: block;
+    margin: 0px auto;
+}
