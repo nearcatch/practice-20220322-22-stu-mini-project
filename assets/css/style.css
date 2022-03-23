@@ -4,8 +4,8 @@
 body {
     background-color: rgb(54, 53, 58);
     color: whitesmoke;
-    height: 1000px;
-    padding-top: 25px;
+    min-height: 1000px;
+    padding-top: 30px;
 }
 header {
     position: fixed;
@@ -24,6 +24,7 @@ header {
 }
 h1 {
     color: rgb(187, 17, 17);
+    text-align: center
 }
 img {
     max-width: 90vw;
