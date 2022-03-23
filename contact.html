@@ -9,10 +9,22 @@
 </head>
 <body>
     <header>
-        <h1>Contact page</h1>
+        <ul id="navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contact.html">Contact Form</a></li>
+            <li><a href="https://google.com">Google</a></li>
+        </ul>
     </header>
     <main>
-        <h2>Enter contact info here</h2>
+        <h1>Contact page</h1>
+        <h2>Enter contact info here:</h2>
+        <section id="contact-form">
+            <p class="contact-label">Name: </p><input type="text" name="name" id="contact-name">
+            <br>
+            <p class="contact-label">Email: </p><input type="email" id="contact-email" pattern=".+@gmail\.com" size="30" required>
+            <br>
+            <button type="submit">Submit</button>
+        </section>
     </main>
     <footer>
         <p>created date: 2022-03-22</p>

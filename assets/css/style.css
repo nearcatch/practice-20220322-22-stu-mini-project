@@ -11,13 +11,16 @@ body {
     background-color: rgb(54, 53, 58);
     color: whitesmoke;
     height: 1000px;
-    padding-top: 75px;
+    padding-top: 25px;
 }
 header {
     position: fixed;
-    top: 0px
+    top: 0px;
+    background-color: burlywood;
+    width: 100vw;
+    margin-left: -8px;
 }
-header h1, header #navigation, header #navigation li {
+#navigation li {
     display: inline;
     margin: auto
 }
@@ -28,4 +31,10 @@ img {
     max-width: 90vw;
     display: block;
     margin: 0px auto;
+}
+#contact-form {
+    line-height: 200%
+}
+.contact-label {
+    display: inline;
 }
